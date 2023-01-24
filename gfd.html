@@ -1,0 +1,85 @@
+<style>
+
+    body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #f1f2f7;
+    }
+    
+    .btn{
+        background-color: #ed3c0a;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+    }
+    
+    #container{
+        border:1px solid red;
+        margin: auto;
+        width: 90%;
+    }
+    
+    .col{
+        display: inline-block;
+        width: 48%;
+        vertical-align: text-bottom;
+    }
+    .orange-text{
+        color:#ed3c0a;
+    }
+    
+    .col:first-child img{
+        height: 360px;;
+    }
+    
+    .col:first-child{
+        text-align: right;
+    }
+    
+    #content{
+        top: -60px;
+        width: 68%;
+        position: relative;
+    }
+    .box{
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+    }
+    .box:nth-child(1){
+        background-color: #ed3c0a;
+    }
+    .box:nth-child(2){
+        background-color: #fb6f00;
+    }
+    .box:nth-child(3){
+        background-color: #fb984a
+    }
+    
+    #boxContainer{
+        width: fit-content;
+        margin:auto;
+    }
+    
+    </style>
+    
+    <div id="container">
+        <div class="col">
+            <img src="pic.JPG" alt="">
+        </div>
+        <div class="col">
+            <div id="content">
+                <h3>ABOUT US</h3>
+                <h1 class="orange-text">BRANDING &</h1>
+                <h1 class="orange-text">DESIGN AGENCY</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cum. Ad, asperiores, pariatur a aliquam rem inventore esse rep
+                </p>
+                <button class="btn">MORE DETAILS</button>
+          </div>
+        </div>
+    
+        <div id="boxContainer">
+            <div class="box"></div><div class="box"></div><div class="box"></div>
+        </div>
+    </div>
+    
